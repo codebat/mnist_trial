@@ -28,3 +28,5 @@ result_df = pd.DataFrame(resulted_label)
 
 result_df.index+=1
 result_df.to_csv('linsvm_pca',header = 'Label',index_label = 'ImageId')
+
+# to be modified to take the components in PCA as command line argument
